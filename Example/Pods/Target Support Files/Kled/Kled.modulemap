@@ -1,0 +1,6 @@
+framework module Kled {
+  umbrella header "Kled-umbrella.h"
+
+  export *
+  module * { export * }
+}

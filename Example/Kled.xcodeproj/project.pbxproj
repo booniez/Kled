@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C9B2295F059BA07B24C2497 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2C9B2295F059BA07B24C2497 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51F7726935865E74801382AA /* Pods-Kled_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kled_Example.debug.xcconfig"; path = "Target Support Files/Pods-Kled_Example/Pods-Kled_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Kled_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kled_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		6B0555DE406DC01DA6DCDF88 /* Pods-Kled_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kled_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Kled_Tests/Pods-Kled_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		78A8638C8D2E9FEA7B371599 /* Pods_Kled_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kled_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97449B3D39E04940F1EC0602 /* Pods_Kled_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kled_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC894B8308FD5B1EC0996CC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BC894B8308FD5B1EC0996CC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C7915ECF27255B43BE0C71ED /* Pods-Kled_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kled_Tests.release.xcconfig"; path = "Target Support Files/Pods-Kled_Tests/Pods-Kled_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DB60C0F171F43581C1453CFD /* Kled.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Kled.podspec; path = ../Kled.podspec; sourceTree = "<group>"; };
+		DB60C0F171F43581C1453CFD /* Kled.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Kled.podspec; path = ../Kled.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E897B7362EE1271E21F9626C /* Pods-Kled_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kled_Example.release.xcconfig"; path = "Target Support Files/Pods-Kled_Example/Pods-Kled_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				6B0555DE406DC01DA6DCDF88 /* Pods-Kled_Tests.debug.xcconfig */,
 				C7915ECF27255B43BE0C71ED /* Pods-Kled_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
